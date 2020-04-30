@@ -1,22 +1,24 @@
 .btn{
     background-color:transparent;
-    border: 1px solid red;
-    color: red;
+    border: 1px solid rgb(255, 0, 140);
+    color: rgb(255, 0, 140);
 }
 .btn:hover{
-    background-color: red;
+    background-color: rgb(179, 15, 138);
     color: white;
 }
 .btn-primary.focus,
 .btn-primary:focus{
     color: white;
-    background-color: red;
-    border-color: red;
-    box-shadow: 0 0 0 0.2em red;
+    background-color: #a0085b;
+    border-color: #a0085b;
+    box-shadow: 0 0 0 0.2em #d68bb4;
+    
 }
 
 .btn-primary:not(:disabled):not(.disabled):active, .btn-primary:not(:disabled):not(.disabled).active,
 .show > .btn-primary.dropdown-toggle {
   color: #fff;
-  background-color: #dd4306;
-  border-color: #dd4306;
+  background-color: rgb(255, 0, 191);
+  border-color: rgb(235, 180, 232);
+  box-shadow: 0 0 0 0.2em #d68bb4;
